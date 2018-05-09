@@ -1,11 +1,11 @@
 function register() {
-	let fname = document.getElementById("f-name").value;
-	let lname = document.getElementById("l-name").value;
-	let month = document.getElementById("month").value;
-	let day = document.getElementById("day").value;
-	let year = document.getElementById("year").value;
-	let email = document.getElementById("email").value;
-	let pass = document.getElementById("pass").value;
+	var fname = document.getElementById("f-name").value;
+	var lname = document.getElementById("l-name").value;
+	var month = document.getElementById("month").value;
+	var day = document.getElementById("day").value;
+	var year = document.getElementById("year").value;
+	var email = document.getElementById("email").value;
+	var pass = document.getElementById("pass").value;
 	
 	
 }
