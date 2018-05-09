@@ -1,0 +1,147 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.register {
+	height: 65vh;
+	width: 25vw;
+	border: 1px solid #222;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.show-pass {
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: row;
+	font-family: "Josefin-Sans-Regular";
+	padding: 15px;
+	font-size: 0.8em;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.custom-input {
+	width: 100%;
+	font-family: "Josefin-Sans-Regular";
+	font-size: 0.9em;
+	border-radius: 5px;
+	padding: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.email {
+	width: 60% !important;
+}
+
+span {
+	padding: 5px;
+	font-family: "Josefin-Sans-Regular";
+}
+
+.custom-dropdown {
+	font-size: 0.9em;
+	width: 30%;
+	font-family: "Josefin-Sans-Regular";
+	border-radius: 5px;
+	padding: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.year {
+	width: 17%;
+	text-align: center;
+}
+
+.month {
+	width: 57%;
+	text-align: center;
+}
+
+.day {
+	width: 11%;
+	text-align: center;
+}
+
+.birthdate {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 10px;
+}
+
+.custom-button {
+	width: 100%;
+	font-family: "Montserrat-Regular";
+	border-radius: 5px;
+	padding: 5px;
+	border: none;
+}
+
+.custom-button:hover,
+.custom-dropdown:hover {
+	cursor: pointer;
+}
+
+
+.container-sr {
+	position: relative;
+	width: 100%;
+	bottom: 0;
+}
+
+.user-name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000;
+}
+
+.name {
+	width: 100%;
+}
+
+.l {
+	margin-left: 5px;
+}
+
+.r {
+	margin-right: 5px;
+}
+
+.lname {
+	margin-left: 10%;
+}
+
+.email-c {
+	padding-top: 10px;
+	border-top: 1px solid #000;
+}
+
+/* Fonts */
+@font-face {
+	font-family: "Montserrat-Regular";
+	src: url(Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Josefin-Sans-Regular";
+	src: url(JosefinSans-Regular.ttf);
+}
+
+h3 {
+	font-family: "Montserrat-Regular";
+	font-size: 0.8em;
+}
