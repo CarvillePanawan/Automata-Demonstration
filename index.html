@@ -2,12 +2,13 @@
 	<head>
 		<link rel="stylesheet" href="index.css">
 		<script src="index.js" async></script>
+		<script src="automaton-email.js" async></script>
+		<script src="automaton-pass.js" async></script>
 	</head>
 	
 	<body>
 		<div class="container">
 			<div class="register">
-				<form action="javascript:register()">
 					<div class="user-name">
 						<div class="name r">
 							<h3>First Name:</h3>
@@ -54,7 +55,7 @@
 					
 					<div class="email-c">
 						<h3>Email: </h3>
-						<input id="email"class="custom-input email" type="text" placeholder="Email"><span>@</span>
+						<input id="email" class="custom-input email" type="text" placeholder="Email"><span>@</span>
 						<select id="email-domain" class="custom-dropdown">
 							<option value="gmail.com">gmail.com</option>
 							<option value="yahoo.com">yahoo.com</option>
@@ -72,9 +73,8 @@
 					</div>
 					
 					<div class="container-sr">
-						<input class="custom-button" type="submit">
+						<button onclick="automaton_e(); automaton_p();" class="custom-button" type="submit">Submit</button>
 					</div>
-				</form>
 				
 			</div>
 		</div>
